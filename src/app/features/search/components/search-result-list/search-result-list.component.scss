@@ -1,0 +1,34 @@
+.results__heading {
+    font-weight: 500;
+}
+
+.results__list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.results__list-item {
+    margin: 10px;
+}
+
+.result__container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1269ec;
+    border-radius: 4px;
+    width: 200px;
+    max-width: 200px;
+    height: 200px;
+    max-height: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #ffffff;
+    font-weight: 500;
+}

@@ -1,0 +1,9 @@
+
+<div class="details__container">
+    <h1>Repo Name: {{ details.name }}</h1>
+    <ul>
+        <li *ngFor="let detail of details | keyvalue">
+            {{detail.key}}:{{detail.value}}
+        </li>
+    </ul>
+</div>

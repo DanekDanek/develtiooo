@@ -1,0 +1,18 @@
+.search__title {
+    color: #3d3d3d;
+    font-weight: 500;
+}
+
+.search__container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(#000000, 0.3);
+}

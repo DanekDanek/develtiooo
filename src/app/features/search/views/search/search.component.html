@@ -1,0 +1,10 @@
+<h1 class="search__title">Search view</h1>
+<div class="card">
+    <section class="search__container">
+        <app-search-field></app-search-field>
+        <app-button [content]="'Search'" (btnClick)="onSearch()"></app-button>
+    </section>
+    <section *ngIf="searchResults">
+        <app-search-result-list [repositories]="searchResults"></app-search-result-list>
+    </section>
+</div>

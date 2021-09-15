@@ -1,0 +1,10 @@
+<h2 class="results__heading">Search results:</h2>
+<div class="results__list">
+    <div class="results__list-item" *ngFor="let repo of repositories.items">
+        <a [routerLink]="['/details']" [queryParams]="{ id: repo.id }" class="result__container">
+            <p>Name: {{ repo.name }}</p>
+            <p>ID: {{ repo.id }}</p>
+            <p>Desc: {{ repo.description ? repo.description : '---' }}</p>
+        </a>
+    </div>
+</div>
